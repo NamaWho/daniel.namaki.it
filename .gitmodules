@@ -1,0 +1,3 @@
+[submodule "themes/personal-theme"]
+	path = themes/personal-theme
+	url = https://github.com/NamaWho/personal-theme.git
