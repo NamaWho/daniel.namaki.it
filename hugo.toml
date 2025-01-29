@@ -1,0 +1,84 @@
+baseURL = 'https://daniel.namaki.it'
+languageCode = 'en-us'
+title = 'Daniel Namaki'
+theme = 'personal-theme'
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+
+[params.cv]
+URL = "files/cv_danielnamaki_np.pdf"
+icon = "icon-profile-fill"
+btnText = "Get my CV"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-N9L4RRWS" # Google Analytics works with Google Tag Manager
+
+  description = "Daniel Namaki's personal website showcasing projects, skills, and professional experience in software development and data science. Explore the portfolio, and get in touch."
+  author = "Daniel Namaki"
+  keywords = "Daniel Namaki, AI, Artificial Intelligence, CTO, GitHub, Startup, Consulting, software development, data science, portfolio, projects, professional experience, programming, coding, technology"
+
+  [params.logo]
+    text1 = "Daniel"
+    text2 = "Namaki"
+
+  [params.footer]
+      copyright = "© Daniel Namaki. All rights reserved."
